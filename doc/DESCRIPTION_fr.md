@@ -1,0 +1,1 @@
+Une interface alternative respectueuse de la vie privée pour YouTube Music. Construit avec SvelteKit, instance officielle hébergée avec Cloudflare Workers.

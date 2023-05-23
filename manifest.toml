@@ -1,0 +1,57 @@
+packaging_format = 2
+
+id = "beatbump"
+name = "Beatbump"
+description.en = "Alternative YouTube Music frontend built with Svelte/SvelteKit"
+description.fr = "Interface alternative YouTube Music construite avec Svelte/SvelteKit"
+
+version = "0.29.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0"
+website = "https://beatbump.io/home"
+demo = "https://beatbump.io/home"
+admindoc = "https://yunohost.org/packaging_apps"
+code = "https://github.com/snuffyDev/Beatbump"
+
+[integration]
+yunohost = ">= 11.1.19"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/snuffyDev/Beatbump/archive/refs/tags/v0.29.0.tar.gz"
+        sha256 = "cbab32c2ffb7e76f9eb35020e7da624137340bb4559fd9fd3f73800d36cb33f5"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.url = "/api"
+    api.show_tile = false
+    api.allowed = "visitors"
+
+    [resources.ports]
+    main.default = 3000
