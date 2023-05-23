@@ -24,12 +24,11 @@ Une interface alternative respectueuse de la vie privée pour YouTube Music. Co
 
 ## Captures d’écran
 
-![Capture d’écran de Beatbump](./doc/screenshots/m_artist.png)
+![Capture d’écran de Beatbump](./doc/screenshots/playlist.jpeg)
 
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://beatbump.io/home>
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://github.com/snuffyDev/Beatbump>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_beatbump>
 * Signaler un bug : <https://github.com/YunoHost-Apps/beatbump_ynh/issues>

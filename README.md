@@ -24,12 +24,11 @@ A privacy-respecting alternative frontend for YouTube Music. Built with SvelteKi
 
 ## Screenshots
 
-![Screenshot of Beatbump](./doc/screenshots/m_artist.png)
+![Screenshot of Beatbump](./doc/screenshots/playlist.jpeg)
 
 ## Documentation and resources
 
 * Official app website: <https://beatbump.io/home>
-* Official admin documentation: <https://yunohost.org/packaging_apps>
 * Upstream app code repository: <https://github.com/snuffyDev/Beatbump>
 * YunoHost documentation for this app: <https://yunohost.org/app_beatbump>
 * Report a bug: <https://github.com/YunoHost-Apps/beatbump_ynh/issues>
