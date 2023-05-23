@@ -13,7 +13,6 @@ maintainers = ["eric_G"]
 license = "AGPL-3.0"
 website = "https://beatbump.io/home"
 demo = "https://beatbump.io/home"
-admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/snuffyDev/Beatbump"
 
 [integration]
